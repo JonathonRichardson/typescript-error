@@ -11,7 +11,7 @@ gulp.task("build", function () {
     var js  = compiled.js;
     var dts = compiled.dts;
 
-    var dest = gulp.dest(".");
+    var dest = gulp.dest("./src");
 
     return merge([
         js.pipe(dest),

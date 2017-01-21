@@ -38,4 +38,4 @@ jspm_packages
 
 .idea/**
 src/**/*.js
-index.d.ts
+src/index.d.ts

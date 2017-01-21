@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Error and Option objects for Typescript",
   "main": "src/index.js",
-  "typings": "index.d.ts",
+  "typings": "src/index.d.ts",
   "scripts": {
     "test": "gulp test"
   },
