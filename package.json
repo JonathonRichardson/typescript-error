@@ -1,0 +1,19 @@
+{
+  "name": "typescript-error",
+  "version": "0.1.0",
+  "description": "Error and Option objects for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathonRichardson/typescript-error.git"
+  },
+  "author": "Jonathon Richardson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JonathonRichardson/typescript-error/issues"
+  },
+  "homepage": "https://github.com/JonathonRichardson/typescript-error#readme"
+}
