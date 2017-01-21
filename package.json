@@ -2,7 +2,8 @@
   "name": "typescript-error",
   "version": "0.1.0",
   "description": "Error and Option objects for Typescript",
-  "main": "index.js",
+  "main": "src/index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "gulp test"
   },
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/JonathonRichardson/typescript-error/issues"
   },
-  "homepage": "https://github.com/JonathonRichardson/typescript-error#readme"
+  "homepage": "https://github.com/JonathonRichardson/typescript-error#readme",
+  "dependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-typescript": "^3.1.4",
+    "jasmine": "^2.5.3",
+    "jasmine-console-reporter": "^1.2.7",
+    "merge2": "^1.0.3",
+    "typescript": "^2.1.5"
+  }
 }
