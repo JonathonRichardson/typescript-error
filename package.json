@@ -1,11 +1,12 @@
 {
   "name": "typescript-error",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Error and Option objects for Typescript",
   "main": "src/index.js",
   "typings": "src/index.d.ts",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "prepublish": "in-publish && npm test"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
     "gulp-typescript": "^3.1.4",
+    "in-publish": "^2.0.0",
     "jasmine": "^2.5.3",
     "jasmine-console-reporter": "^1.2.7",
     "merge2": "^1.0.3",
